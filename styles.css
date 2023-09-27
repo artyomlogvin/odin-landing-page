@@ -10,17 +10,19 @@ body {
 
 .header {
     background-color: #1F2937;
-    padding: 0 100px 0 100px;
+    padding: 10px 100px 100px 100px;
     margin: 0;
 
-    flex-grow: 1;
-    flex-basis: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 750px;
 
     margin-bottom: 30px;
 }
@@ -44,4 +46,24 @@ li, .hero-subtext {
 
 .hero {
     display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 750px;
+}
+
+.image-placeholder {
+    flex-basis: 400px;
+    background-color: grey;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-left {
+    flex-basis: 300px;
+}
+
+.hero-title {
+    font-size: 48px;
 }
