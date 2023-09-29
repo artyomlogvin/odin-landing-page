@@ -127,3 +127,30 @@ li, .hero-subtext {
     display: flex;
     gap: 40px;
 }
+
+/*Quote section*/
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px 100px 200px;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 900;
+}
+
+.quote-subcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+}
