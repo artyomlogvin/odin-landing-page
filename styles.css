@@ -77,7 +77,7 @@ li, .hero-subtext {
     font-weight: 900;
 }
 
-.sign-up-top {
+.sign-up {
     background-color: #3882F6;
     padding: 5px 25px 5px 25px;
     border: 0;
@@ -153,4 +153,26 @@ li, .hero-subtext {
     display: flex;
     flex-direction: column;
     width: 750px;
+}
+
+.cta-section {
+    padding: 50px 100px 50px 100px;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px 25px 50px;
+    border-radius: 5px;
+}
+
+.cta-container button {
+    border:solid 2px #E5E7EB;
+    border-radius: 7px;
+}
+
+.cta-p {
+    font-weight: 900;
 }
