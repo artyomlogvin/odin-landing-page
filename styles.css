@@ -157,6 +157,9 @@ li, .hero-subtext {
 
 .cta-section {
     padding: 50px 100px 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cta-container {
@@ -166,6 +169,7 @@ li, .hero-subtext {
     justify-content: space-between;
     padding: 25px 50px 25px 50px;
     border-radius: 5px;
+    width: 750px;
 }
 
 .cta-container button {
